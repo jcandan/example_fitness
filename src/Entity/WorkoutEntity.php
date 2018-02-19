@@ -173,6 +173,19 @@ class WorkoutEntity extends ContentEntityBase implements WorkoutEntityInterface 
       ->setDisplayConfigurable('form', TRUE)
       ->setDisplayConfigurable('view', TRUE);
 
+    $fields['exercises'] = BaseFieldDefinition::create('entity_relationship_field_with_time')
+      ->setLabel(t('Exercises'))
+      ->setDescription(t('Add exercises to this workout, each with their respective countdown time length.'))
+      ->setDisplayOptions('view', [
+        'label' => 'hidden',
+        'weight' => 0,
+      ])
+      ->setDisplayOptions('form', [
+        'weight' => 5,
+      ])
+      ->setDisplayConfigurable('form', TRUE)
+      ->setDisplayConfigurable('view', TRUE);
+
     $fields['name'] = BaseFieldDefinition::create('string')
       ->setLabel(t('Name'))
       ->setDescription(t('The name of the Workout entity.'))
