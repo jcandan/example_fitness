@@ -1,0 +1,22 @@
+{
+  "name": "drupal/example_fitness",
+  "type": "drupal-module",
+  "description": "Provides Exercise and Workout entities, and custom Entity Relationship Field with Time.",
+  "keywords": ["Drupal"],
+  "license": "GPL-2.0+",
+  "homepage": "https://www.drupal.org/project/example_fitness",
+  "minimum-stability": "dev",
+  "support": {
+    "issues": "https://github.com/jcandan/example_fitness/issues",
+    "source": "https://github.com/jcandan/example_fitness"
+  },
+  "repositories": [
+    {
+      "type": "composer",
+      "url": "https://packages.drupal.org/8"
+    }
+  ],
+  "require": {
+    "drupal/hms_field": "1.x-dev"
+  }
+}

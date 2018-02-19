@@ -1,0 +1,44 @@
+# Workout routing definition
+workout.settings_tab:
+  route_name: workout.settings
+  title: 'Settings'
+  base_route: workout.settings
+
+entity.workout.canonical:
+  route_name: entity.workout.canonical
+  base_route: entity.workout.canonical
+  title: 'View'
+
+entity.workout.edit_form:
+  route_name: entity.workout.edit_form
+  base_route: entity.workout.canonical
+  title: 'Edit'
+
+entity.workout.delete_form:
+  route_name:  entity.workout.delete_form
+  base_route:  entity.workout.canonical
+  title: Delete
+  weight: 10
+
+# Exercise routing definition
+exercise.settings_tab:
+  route_name: exercise.settings
+  title: 'Settings'
+  base_route: exercise.settings
+
+entity.exercise.canonical:
+  route_name: entity.exercise.canonical
+  base_route: entity.exercise.canonical
+  title: 'View'
+
+entity.exercise.edit_form:
+  route_name: entity.exercise.edit_form
+  base_route: entity.exercise.canonical
+  title: 'Edit'
+
+entity.exercise.delete_form:
+  route_name:  entity.exercise.delete_form
+  base_route:  entity.exercise.canonical
+  title: Delete
+  weight: 10
+

@@ -1,0 +1,7 @@
+name: 'example_fitness'
+type: module
+description: 'Provides Exercise and Workout entities, and custom Entity Relationship Field with Time.'
+core: 8.x
+package: 'Custom'
+dependencies:
+- hms_field

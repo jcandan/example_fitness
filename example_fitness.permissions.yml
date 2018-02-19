@@ -1,0 +1,38 @@
+add workout entities:
+  title: 'Create new Workout entities'
+
+administer workout entities:
+  title: 'Administer Workout entities'
+  description: 'Allow to access the administration form to configure Workout entities.'
+  restrict access: true
+
+delete workout entities:
+  title: 'Delete Workout entities'
+
+edit workout entities:
+  title: 'Edit Workout entities'
+
+view published workout entities:
+  title: 'View published Workout entities'
+
+view unpublished workout entities:
+  title: 'View unpublished Workout entities'
+add exercise entities:
+  title: 'Create new Exercise entities'
+
+administer exercise entities:
+  title: 'Administer Exercise entities'
+  description: 'Allow to access the administration form to configure Exercise entities.'
+  restrict access: true
+
+delete exercise entities:
+  title: 'Delete Exercise entities'
+
+edit exercise entities:
+  title: 'Edit Exercise entities'
+
+view published exercise entities:
+  title: 'View published Exercise entities'
+
+view unpublished exercise entities:
+  title: 'View unpublished Exercise entities'

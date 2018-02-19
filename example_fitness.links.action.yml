@@ -1,0 +1,10 @@
+entity.workout.add_form:
+  route_name: entity.workout.add_form
+  title: 'Add Workout'
+  appears_on:
+    - entity.workout.collection
+entity.exercise.add_form:
+  route_name: entity.exercise.add_form
+  title: 'Add Exercise'
+  appears_on:
+    - entity.exercise.collection

@@ -1,0 +1,28 @@
+
+# Workout menu items definition
+entity.workout.collection:
+  title: 'Workout list'
+  route_name: entity.workout.collection
+  description: 'List Workout entities'
+  parent: system.admin_structure
+  weight: 100
+
+workout.admin.structure.settings:
+  title: 'Workout settings'
+  description: 'Configure Workout entities'
+  route_name: workout.settings
+  parent: system.admin_structure
+
+# Exercise menu items definition
+entity.exercise.collection:
+  title: 'Exercise list'
+  route_name: entity.exercise.collection
+  description: 'List Exercise entities'
+  parent: system.admin_structure
+  weight: 100
+
+exercise.admin.structure.settings:
+  title: 'Exercise settings'
+  description: 'Configure Exercise entities'
+  route_name: exercise.settings
+  parent: system.admin_structure

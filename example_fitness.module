@@ -1,0 +1,24 @@
+<?php
+
+/**
+ * @file
+ * Contains example_fitness.module.
+ */
+
+use Drupal\Core\Routing\RouteMatchInterface;
+
+/**
+ * Implements hook_help().
+ */
+function example_fitness_help($route_name, RouteMatchInterface $route_match) {
+  switch ($route_name) {
+    // Main module help for the example_fitness module.
+    case 'help.page.example_fitness':
+      $output = '';
+      $output .= '<h3>' . t('About') . '</h3>';
+      $output .= '<p>' . t('Provides Exercise and Workout entities, and custom Entity Relationship Field with Time.') . '</p>';
+      return $output;
+
+    default:
+  }
+}
