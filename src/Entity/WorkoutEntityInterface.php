@@ -11,7 +11,7 @@ use Drupal\user\EntityOwnerInterface;
  *
  * @ingroup example_fitness
  */
-interface WorkoutEntityInterface extends ContentEntityInterface, EntityChangedInterface, EntityOwnerInterface {
+interface WorkoutEntityInterface extends ContentEntityInterface, EntityChangedInterface {
 
   // Add get/set methods for your configuration properties here.
 
