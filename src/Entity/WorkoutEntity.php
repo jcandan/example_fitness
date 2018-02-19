@@ -176,6 +176,10 @@ class WorkoutEntity extends ContentEntityBase implements WorkoutEntityInterface 
     $fields['exercises'] = BaseFieldDefinition::create('entity_relationship_field_with_time')
       ->setLabel(t('Exercises'))
       ->setDescription(t('Add exercises to this workout, each with their respective countdown time length.'))
+      ->setCardinality(BaseFieldDefinition::CARDINALITY_UNLIMITED)
+      ->setSettings(array(
+        'target_type' => 'exercise',
+      ))
       ->setDisplayOptions('view', [
         'label' => 'hidden',
         'weight' => 0,
