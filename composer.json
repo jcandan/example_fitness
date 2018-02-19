@@ -1,5 +1,5 @@
 {
-  "name": "drupal/example_fitness",
+  "name": "jcandan/example_fitness",
   "type": "drupal-module",
   "description": "Provides Exercise and Workout entities, and custom Entity Relationship Field with Time.",
   "keywords": ["Drupal"],
